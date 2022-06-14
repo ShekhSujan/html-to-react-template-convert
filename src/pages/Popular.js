@@ -348,7 +348,6 @@ const Popular = () => {
     </div>
   </section>
 <Nav/>
-<Modal/>
 </div>
 
 

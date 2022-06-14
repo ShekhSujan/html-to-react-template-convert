@@ -10,7 +10,7 @@ const Trending = () => {
               <nav aria-label="breadcrumb" class="breadcrumb mb-0">
         <div class="container">
             <ol class="d-flex align-items-center mb-0 p-0">
-                <li class="breadcrumb-item"><a href="#" class="text-success">Home</a></li>
+                <li class="breadcrumb-item"><Link class="text-success">Home</Link></li>
                 <li class="breadcrumb-item active" aria-current="page">Listing</li>
             </ol>
         </div>

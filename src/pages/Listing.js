@@ -349,7 +349,7 @@ const Listing = () => {
     </div>
   </section>
 <Nav/>
-<Modal/>
+
 </div>
 
 

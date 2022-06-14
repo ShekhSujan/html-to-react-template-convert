@@ -108,7 +108,6 @@ const Recomended = () => {
     </div>
   </section>
   <Nav/>
-<Modal/>
 </div>
 
   )
