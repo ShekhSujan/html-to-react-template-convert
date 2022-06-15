@@ -6,8 +6,8 @@ import Nav from '../components/Nav';
 const Trending = () => {
   return (
  
-        <div>
-              <nav aria-label="breadcrumb" class="breadcrumb mb-0">
+  <div>
+    <nav aria-label="breadcrumb" class="breadcrumb mb-0">
         <div class="container">
             <ol class="d-flex align-items-center mb-0 p-0">
                 <li class="breadcrumb-item"><Link class="text-success">Home</Link></li>
@@ -349,7 +349,6 @@ const Trending = () => {
     </div>
   </section>
 <Nav/>
-<Modal/>
 </div>
 
 
