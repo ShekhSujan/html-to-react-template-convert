@@ -348,7 +348,7 @@ const Trending = () => {
       </div>
     </div>
   </section>
-<Nav/>
+ <Nav/>
 </div>
 
 
