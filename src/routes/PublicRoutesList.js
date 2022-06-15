@@ -65,8 +65,6 @@ const PublicRoutesList = [
     {path:"/search", exact:true,name:'Search',component:Search },
 
 
-
-
     {path:"/403", exact:true,name:'Page403',component:Page403},
     {path:"/404", exact:true,name:'Page404',component:Page404},
 
