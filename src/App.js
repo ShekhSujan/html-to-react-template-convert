@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import PublicRoute from "./PublicRoute";
 
+
 function App() {
   return (
     <div className="App">
-      
-            <Router>
+         <Router>
               <Switch>
                 <PublicRoute path="/" name="Home" />
               </Switch>

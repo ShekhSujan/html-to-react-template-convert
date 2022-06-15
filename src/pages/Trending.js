@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Modal from '../components/Modal';
 import Nav from '../components/Nav';
 
 const Trending = () => {

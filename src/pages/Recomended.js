@@ -1,5 +1,4 @@
 import React from 'react'
-import Modal from '../components/Modal'
 import Nav from '../components/Nav'
 
 const Recomended = () => {
