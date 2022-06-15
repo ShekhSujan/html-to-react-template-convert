@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Nav from '../components/Nav'
 
 const Privacy = () => {
@@ -8,7 +9,7 @@ const Privacy = () => {
   <nav aria-label="breadcrumb" className="breadcrumb mb-0">
     <div className="container">
       <ol className="d-flex align-items-center mb-0 p-0">
-        <li className="breadcrumb-item"><a href="#" className="text-success">Home</a></li>
+        <li className="breadcrumb-item"><Link className="text-success">Home</Link></li>
         <li className="breadcrumb-item active" aria-current="page">Privacy</li>
       </ol>
     </div>
@@ -21,51 +22,51 @@ const Privacy = () => {
             <div className="p-4 profile text-center border-bottom">
               <img src="img/user.png" className="img-fluid rounded-pill" />
               <h6 className="font-weight-bold m-0 mt-2">Askbootstrap</h6>
-              <p className="small text-muted m-0"><a href="https://askbootstrap.com/cdn-cgi/l/email-protection" className="__cf_email__" data-cfemail="49202824263a28212827092e24282025672a2624">[email&nbsp;protected]</a></p>
+              <p className="small text-muted m-0"><Link  className="__cf_email__" data-cfemail="">[email&nbsp;protected]</Link></p>
             </div>
             <div className="account-sections">
               <ul className="list-group">
-                <a href="my_account.html" className="text-decoration-none text-dark">
+                <Link  className="text-decoration-none text-dark">
                   <li className="border-bottom bg-white d-flex align-items-center p-3">
                     <i className="icofont-user osahan-icofont bg-danger" />My Account
                     <span className="badge badge-success p-1 badge-pill ml-auto"><i className="icofont-simple-right" /></span>
                   </li>
-                </a>
-                <a href="promos.html" className="text-decoration-none text-dark">
+                </Link>
+                <Link  className="text-decoration-none text-dark">
                   <li className="border-bottom bg-white d-flex align-items-center p-3">
                     <i className="icofont-sale-discount osahan-icofont bg-success" />Promos
                     <span className="badge badge-success p-1 badge-pill ml-auto"><i className="icofont-simple-right" /></span>
                   </li>
-                </a>
-                <a href="my_address.html" className="text-decoration-none text-dark">
+                </Link>
+                <Link  className="text-decoration-none text-dark">
                   <li className="border-bottom bg-white d-flex align-items-center p-3">
                     <i className="icofont-address-book osahan-icofont bg-dark" />My Address
                     <span className="badge badge-success p-1 badge-pill ml-auto"><i className="icofont-simple-right" /></span>
                   </li>
-                </a>
-                <a href="terms_conditions.html" className="text-decoration-none text-dark">
+                </Link>
+                <Link className="text-decoration-none text-dark">
                   <li className="border-bottom bg-white d-flex align-items-center p-3">
                     <i className="icofont-info-circle osahan-icofont bg-primary" />Terms, Privacy &amp; Policy
                     <span className="badge badge-success p-1 badge-pill ml-auto"><i className="icofont-simple-right" /></span>
                   </li>
-                </a>
-                <a href="help_support.html" className="text-decoration-none text-dark">
+                </Link>
+                <Link  className="text-decoration-none text-dark">
                   <li className="border-bottom bg-white d-flex align-items-center p-3">
                     <i className="icofont-phone osahan-icofont bg-warning" />Help &amp; Support
                     <span className="badge badge-success p-1 badge-pill ml-auto"><i className="icofont-simple-right" /></span>
                   </li>
-                </a>
-                <a href="help_ticket.html" className="text-decoration-none text-dark">
+                </Link>
+                <Link  className="text-decoration-none text-dark">
                   <li className="border-bottom bg-white d-flex align-items-center p-3">
                     <i className="icofont-phone osahan-icofont bg-success" />Ticket
                     <span className="badge badge-success p-1 badge-pill ml-auto"><i className="icofont-simple-right" /></span>
                   </li>
-                </a>
-                <a href="signin.html" className="text-decoration-none text-dark">
+                </Link>
+                <Link  className="text-decoration-none text-dark">
                   <li className="border-bottom bg-white d-flex  align-items-center p-3">
                     <i className="icofont-lock osahan-icofont bg-danger" /> Logout
                   </li>
-                </a>
+                </Link>
               </ul>
             </div>
           </div>

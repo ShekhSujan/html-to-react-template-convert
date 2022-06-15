@@ -6,7 +6,8 @@ import PublicRoute from "./PublicRoute";
 function App() {
   return (
     <div className="App">
-         <Router>
+      
+            <Router>
               <Switch>
                 <PublicRoute path="/" name="Home" />
               </Switch>
